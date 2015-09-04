@@ -1,3 +1,3 @@
-Profile Page - Lee Chang Hyun
+Profile Page - MuHun Kim
 ===
 http://yale2a1.github.io/
