@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!--mobile page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <!-- AppMode on mobile safari -->
@@ -51,7 +54,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" onclick="onBrand()">MuHun Kim GoDragoneCircle(고용원)이 요청함</a>
+          <a class="brand" onclick="onBrand()">MuHun Kim</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <!-- li class="active"><a href="#">Home</a></li-->
@@ -80,16 +83,17 @@
         <div class="label label-warning">Interests</div>
         <ul>
             <li class="li-content">Web Technologies: HTML/PHP/CSS/Rails</li>
-            <li class="li-content">C</li>
-            <li class="li-content">C++</li>
+            <li class="li-content">Polyglot Programming</li>
+            <li class="li-content">C/C++</li>
             <li class="li-content">Python</li>
             <li class="li-content">Ruby</li>
+            <li class="li-content">Go!</li>
         </ul>
         <br>
 
         <div class="label label-inverse">Hobby</div>
         <ul>
-            <li class="li-content">Coding, Doctor Who(SF Movie)</li>
+            <li class="li-content">Coding, Doctor Who(SF Movie), Wikier</li>
         </ul>
         <br>
 
@@ -111,7 +115,7 @@
                             <div class="media">
                                 <a href="images/wsc.png" class="CBmodal cboxElement"></a>
                             </div><!-- /.media -->
-                            <p><br>- 로봇 알람시계 개발
+                            <p><br>- 로봇 알람시계
                               <div class="media">
                                   <a href="images/SW_Camp.jpg" class="CBmodal cboxElement"><img src="images/SW_Camp.jpg" width="240" height="180" alt="SW_Camp"></a>
                               </div><!-- /.media -->
@@ -124,7 +128,7 @@
                         <dt id="2015YISF"><a>YISF</a></dt>
                         <dd class="timelineEvent" id="2015YISFEX" style="display:none;">
                             <h3><a href="http://http://yisf.sch.ac.kr">Youth Information Security Festival</a><br></h3>
-                         <p>- 120명/70등</a><br>- 워밍업, MISC문제 품</p>
+                         <p>- 120명/70등</a><br>- 550점 : 워밍업, MISC문제를 해결함</p>
                             <br class="clear">
                         </dd><!-- /.timelineEvent -->
                     </dl><!-- /.timelineMinor -->
@@ -133,7 +137,7 @@
                         <dt id="2015Doc"><a>JuniorSWcup</a></dt>
                         <dd class="timelineEvent" id="2015DocEX" style="display:none;">
                             <h3><a href="https://www.juniorswcup.com/">주니어 소프트웨어 창작대회</a><br></h3>
-                            <p>- virtualEasy(easyVM) 개발 중</p><br>
+                            <p>- virtualEasy(easyVM) 작품 예선 제출</p><br>
                             <br class="clear">
                         </dd><!-- /.timelineEvent -->
                     </dl><!-- /.timelineMinor -->
@@ -145,17 +149,17 @@
 
                     <dl class="timelineMinor">
                     <dl class="timelineMinor">
-                      <dt id="2014Doc"><a>Technique</a></dt>
-                      <dd class="timelineEvent" id="2014DocEX" style="display:none;">
-                        <p>- PHP를 처음으로 프로그래밍 입문
-                          <br>- C
-                          <br>- HTML/CSS/Rails
-                          <br>- Ruby, Python(2014~)
+                      <dt id="2014Tec"><a>Technique</a></dt>
+                      <dd class="timelineEvent" id="2014TecEX" style="display:none;">
+                        <p>   - PocketMine-MP 개발에 욕심이 생겨 PHP를 맨땅에 헤딩, 프로그래밍 입문
+                          <br>- KOI 준비로 C배움
+                          <br>- 웹 공부 : HTML/CSS/Rails
+                          <br>- 인터프리터 언어에 관심이 생겨 Ruby, Python을 현재까지 공부중
                         </dd>
                         <dt id="2014Doc"><a>Project</a></dt>
                         <dd class="timelineEvent" id="2014DocEX" style="display:none;">
-                            <h3><a>PocketMine-MP 한글화</a></h3><br>
-                            <h3><a href="https://github.com/KOMC/EntityMove/">PocketMine-MP Entity_M(엔디티 버그 수정) 프로젝트 관리 및 개발</a><br></h3>
+                            <p>PocketMine-MP 한글화</p><br>
+                            <p>PocketMine-MP Entity_M(엔디티 버그 수정) 프로젝트 관리 및 개발</p></h3>
                             <br class="clear">
                         </dd><!-- /.timelineEvent -->
                     </dl><!-- /.timelineMinor -->
@@ -187,17 +191,6 @@
         </div>
     </div>
 
-    <!-- Hidden Element -->
-    <div id="myModal" class="modal hide fade">
-        <div class="modal-header">
-            <h3>My lover NamHee</h3>
-        </div>
-        <div class="modal-body">
-            <img src="images/nh.png" width="300">
-        </div>
-    </div>
-
-
     <!--Loading -->
     <script src="js/jquery-1.7.1.min.js"></script>  <!-- http://jquery.com/ -->
     <script src="js/bootstrap.min.js"></script>  <!-- http://twitter.github.com/bootstrap/index.html -->
@@ -215,7 +208,11 @@
         });
     </script>
     <script src="js/main.js"></script>
-
+    <script>
+    window.addEventListener('load', function() {
+  setTimeout(scrollTo, 0, 0, 1);
+}, false);
+    </script>
 </body>
 
 </html>
