@@ -2,7 +2,8 @@
 <html>
 <head>
   <!--mobile page-->
-    <meta name="viewport" content="width="100%", initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -11,14 +12,14 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="description" content="MuHun Kim">
     <meta name="author" content="yale2a11@gmail.com">
-
+</head>
     <title>MuHun Kim</title>
 
     <!-- Browser favicon -->
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-    IPhone home page bookmark icon creation
+    <!-- IPhone home page bookmark icon creation -->
     <link href="favicon.ico" rel="apple-touch-icon"/>
-    
+
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
@@ -68,7 +69,7 @@
 
     <div class="container">
       <div class="media">
-          <a href="images/B23.jpg" class="CBmodal cboxElement"><img src="images/B23.jpg" width="120" height="90"></a>
+          <a href="images/B23.jpg" class="CBmodal cboxElement"><img src="images/B23.jpg" width="100"></a>
       </div><br>
         <div class="label label-info">E-Mail</div>
         <ul>
@@ -95,7 +96,7 @@
 
         <div class="label label-inverse">Hobby</div>
         <ul>
-            <li class="li-content">Coding, Doctor Who(SF Movie), Wikier</li>
+            <li class="li-content">Coding, Doctor Who(SF Movie), Wiki</li>
         </ul>
         <br>
 
@@ -117,9 +118,9 @@
                             <div class="media">
                                 <a href="images/wsc.png" class="CBmodal cboxElement"></a>
                             </div><!-- /.media -->
-                            <p><br>- 로봇 알람시계
+                            <p><br>- 로봇 알람시계 개발
                               <div class="media">
-                                  <a href="images/SW_Camp.jpg" class="CBmodal cboxElement"><img src="images/SW_Camp.jpg" width="240" height="180" alt="SW_Camp"></a>
+                                  <a href="images/SW_Camp.jpg" class="CBmodal cboxElement"><img src="images/SW_Camp.jpg" width="100%" alt="SW_Camp"></a>
                               </div><!-- /.media -->
                             </p>
                             <br class="clear">
@@ -136,10 +137,10 @@
                     </dl><!-- /.timelineMinor -->
 
                     <dl class="timelineMinor">
-                        <dt id="2015Doc"><a>JuniorSWcup</a></dt>
+                        <dt id="2015Doc"><a>Juniorswcup</a></dt>
                         <dd class="timelineEvent" id="2015DocEX" style="display:none;">
                             <h3><a href="https://www.juniorswcup.com/">주니어 소프트웨어 창작대회</a><br></h3>
-                            <p>- virtualEasy(easyVM) 작품 예선 제출</p><br>
+                            <p>- virtualEasy 작품 예선</p><br>
                             <br class="clear">
                         </dd><!-- /.timelineEvent -->
                     </dl><!-- /.timelineMinor -->
@@ -153,7 +154,7 @@
                     <dl class="timelineMinor">
                       <dt id="2014Tec"><a>Technique</a></dt>
                       <dd class="timelineEvent" id="2014TecEX" style="display:none;">
-                        <p>   - PocketMine-MP 개발에 욕심이 생겨 PHP를 맨땅에 헤딩, 프로그래밍 입문
+                        <p>   - PocketMine-MP 개발에 욕심이 생겨 PHP를 맨땅에 헤딩
                           <br>- KOI 준비로 C배움
                           <br>- 웹 공부 : HTML/CSS/Rails
                           <br>- 인터프리터 언어에 관심이 생겨 Ruby, Python을 현재까지 공부중
